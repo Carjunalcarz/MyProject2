@@ -17,8 +17,8 @@ const Home = () => {
     <div className="hero-content">
         <div className="min-w-screen">
              <p className='text-3xl font-bold text-primary '>Hi, my name is </p>
-            <h1 className="text-5xl  font-bold w-full">Alcarzin Cardona</h1>
-            <h2 className="text-5xl font-bold text-primary-content">I'm a Full Stack Developer</h2>
+            <h1 className="text-6xl  font-bold w-full">Alcarzin Cardona</h1>
+            <h2 className="text-6xl font-bold text-primary-content">I'm a Full Stack Developer</h2>
             <p className="py-6 text-lg">Provident cupiditate voluptatem et in. Quaerat fugiat ut assumenda excepturi exercitationem quasi. In deleniti eaque aut repudiandae et a id nisi.</p>
             <div className='flex'>
               <span>
