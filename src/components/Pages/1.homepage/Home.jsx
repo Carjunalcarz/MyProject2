@@ -14,7 +14,7 @@ const Home = () => {
   return (
     <>
    
-    <div className="hero min-h-screen bg-base-200 p-10 md:p-20">
+    <div className="hero min-h-screen bg-base-200 p-2 md:p-20">
     
     <div className="hero-content"> 
         <div className="min-w-screen">

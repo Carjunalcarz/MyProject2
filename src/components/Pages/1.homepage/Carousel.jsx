@@ -3,6 +3,7 @@ import banner1 from '../../../assets/images/banner1.png'
 import banner2 from '../../../assets/images/banner2.jpg'
 import banner3 from '../../../assets/images/banner3.jpg'
 import banner4 from '../../../assets/images/banner4.jpg'
+import Farlight from '../../../assets/videos/farlight.mp4'
 
 
 const Carousel = () => {
@@ -20,7 +21,15 @@ const Carousel = () => {
               <img src={banner3}  className="w-full" />
             </div> 
              <div id="item4" className="carousel-item w-full justify-center">
-              <img src={banner4}  className="w-full" />
+              {/* <img src={banner4}  className="w-full" /> */}
+               <div className='w-full'>
+                      <video src={Farlight}
+                                  
+                                  autoplay="{true}" loop muted={true}
+                                  className=" w-auto 
+                                        min-w-full min-h-full max-w-none">
+                      </video>
+                </div>
             </div> 
     </div> 
 
