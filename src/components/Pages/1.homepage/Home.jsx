@@ -13,12 +13,14 @@ import Carousel from './Carousel';
 const Home = () => {
   return (
     <>
-    <div className="hero min-h-screen bg-base-200">
+   
+    <div className="hero min-h-screen bg-base-200 p-10 md:p-20">
+    
     <div className="hero-content">
         <div className="min-w-screen">
              <p className='text-3xl font-bold text-primary '>Hi, my name is </p>
-            <h1 className=" text-4xl  md:text-6xl overflow-hidden whitespace-nowrap font-bold w-full">Alcarzin Cardona</h1>
-            <h2 className="text-6xl font-bold text-primary-content">I'm a Full Stack Developer</h2>
+            <h1 className=" text-4xl  md:text-6xl overflow-hidden whitespace-nowrap font-bold w-full text-content">Alcarzin Cardona</h1>
+            <h2 className="text-6xl font-bold text-primary">I'm a Full Stack Developer</h2>
             <p className="py-6 text-lg">Provident cupiditate voluptatem et in. Quaerat fugiat ut assumenda excepturi exercitationem quasi. In deleniti eaque aut repudiandae et a id nisi.</p>
             <div className='flex'>
               <span>
@@ -42,25 +44,25 @@ const Home = () => {
         <ul>
           <li className='w-[160px] h-[40px] flex justify-between items-center ml-[-100px] hover:ml-[-10px] duration-300 bg-[#0072b1]'>
             <a
-              className='flex justify-between w-full text-gray-300 p-4 text-lg font-bold' href='/'>
+              className='flex justify-between w-full text-gray-300 p-4 text-m' href='/'>
               Linkedin <FaLinkedin size={30} className=''/>
             </a>
           </li>
            <li className='w-[160px] h-[40px] flex justify-between items-center ml-[-100px] hover:ml-[-10px] duration-300 bg-black'>
             <a
-              className='flex justify-between w-full text-gray-300 p-4 text-lg font-bold' href='/'>
+              className='flex justify-between w-full text-gray-300 p-4 text-m' href='/'>
               GutHub <FaGithub size={30} className=''/> 
             </a>
           </li>
            <li className='w-[160px] h-[40px] flex justify-between items-center ml-[-100px] hover:ml-[-10px] duration-300 bg-blue-600'>
             <a
-              className='flex justify-between w-full text-gray-300 p-4 text-lg font-bold' href='/'>
+              className='flex justify-between w-full text-gray-300 p-4 text-m' href='/'>
               Facebook <FaFacebookSquare size={30} className=''/> 
             </a>
           </li>
            <li className='w-[60px] h-[40px] flex  items-center   duration-300 bg-primary'>
             <a
-              className='flex justify-between w-full text-primary-content p-4 text-lg font-bold right-0' href='/'>
+              className='flex justify-between w-full text-primary-content p-4 text-m right-0' href='/'>
                <HiOutlineChevronDoubleLeft size={20} className=''/> 
             </a>
           </li>

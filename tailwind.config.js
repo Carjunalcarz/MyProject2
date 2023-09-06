@@ -12,13 +12,13 @@ export default {
     themes: [ 
       {alcarz: {
           
-          "primary": "#c026d3",
+          "primary": "#5eead4",
                     
           "secondary": "#f000b8",
                     
           "accent": "#1dcdbc",
                     
-          "neutral": "#2b3440",
+          "content": "#f000b8",
                     
           "base-100": "#2b3440",
                     
