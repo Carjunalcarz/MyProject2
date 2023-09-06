@@ -26,10 +26,10 @@ const Carousel = () => {
 
 
 <div className="relative flex justify-center h-full w-full items-end py-2 gap-2 z-10">
-  <a href="#item1" className="btn btn-xs">1</a> 
-  <a href="#item2" className="btn btn-xs">2</a> 
-  <a href="#item3" className="btn btn-xs">3</a> 
-  <a href="#item4" className="btn btn-xs">4</a>
+  <a href="#item1" className="btn btn-xs border-primary hover:bg-primary hover:text-black">1</a> 
+  <a href="#item2" className="btn btn-xs border-primary  hover:bg-primary hover:text-black">2</a> 
+  <a href="#item3" className="btn btn-xs border-primary  hover:bg-primary hover:text-black">3</a> 
+  <a href="#item4" className="btn btn-xs border-primary  hover:bg-primary hover:text-black">4</a>
 </div>
     </div>
     </>
