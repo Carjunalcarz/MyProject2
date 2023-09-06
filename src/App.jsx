@@ -10,11 +10,12 @@ function App() {
   return (
    
     <>
-       <Video/>
+     
       <Navbar/>
-  
+      <Video/>
       <Home/>
       <Footer/>
+       
     </>
   )
 }

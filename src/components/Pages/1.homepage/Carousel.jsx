@@ -25,7 +25,7 @@ const Carousel = () => {
     </div> 
 
 
-<div className="flex justify-center h-full w-full items-end py-2 gap-2">
+<div className="relative flex justify-center h-full w-full items-end py-2 gap-2 z-10">
   <a href="#item1" className="btn btn-xs">1</a> 
   <a href="#item2" className="btn btn-xs">2</a> 
   <a href="#item3" className="btn btn-xs">3</a> 

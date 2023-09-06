@@ -9,7 +9,7 @@ const Video = () => {
               <video src=
 {Videos}
             autoplay="{true}" loop muted
-            className="absolute bg-fixed w-auto 
+            className=" bg-fixed w-auto 
             min-w-full min-h-full max-w-none opacity-10">
         </video>
         </div>
