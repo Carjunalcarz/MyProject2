@@ -3,9 +3,9 @@ import React from 'react'
 const Carousel = () => {
   return (
     <>
-    <div className='hero bg-base-200 pb-20'>
-    <div className="carousel w-[70%] h-[350px]">
-  <div id="item1" className="carousel-item w-full">
+    <div className='hero hidden md:inline-block bg-base-200 pb-20  '>
+    <div className="carousel  h-[350px] min-w-full">
+  <div id="item1" className="carousel-item w-full justify-center">
     <img src="https://thumbs.dreamstime.com/z/abstract-blue-banner-design-blue-geometric-background-vector-illustration-wallpaper-banner-background-card-book-abstract-233083401.jpg"  className="" />
   </div> 
   <div id="item2" className="carousel-item w-full">
