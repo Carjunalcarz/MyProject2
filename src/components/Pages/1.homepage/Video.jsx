@@ -5,11 +5,11 @@ const Video = () => {
   return (
    <>
    
-        <div className='fixed w-full'>
+        <div className='mt-[-55px] fixed w-full'>
               <video src=
 {Videos}
             autoplay="{true}" loop muted
-            className=" bg-fixed w-auto 
+            className="w-auto 
             min-w-full min-h-full max-w-none opacity-10">
         </video>
         </div>
