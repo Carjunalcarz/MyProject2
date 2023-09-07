@@ -5,7 +5,7 @@ const Video = () => {
   return (
    <>
    
-        <div className='mt-[-55px] fixed w-full'>
+        <div className='fixed w-screen min-h-screen'>
               <video src=
 {Videos}
             autoplay="{true}" loop muted

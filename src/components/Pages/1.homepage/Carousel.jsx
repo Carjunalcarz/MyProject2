@@ -9,7 +9,7 @@ import Farlight from '../../../assets/videos/farlight.mp4'
 const Carousel = () => {
   return (
     <>
-    <div className='hero hidden md:inline-block bg-base-200 p-20  w-screen '>
+    <div className='z-10 hero hidden md:inline-block bg-base-200 p-20  w-screen '>
     <div className="carousel w-full h-[550px]">
             <div id="item1" className="carousel-item w-full justify-center">
               <img src={banner1}  className="w-full" />

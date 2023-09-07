@@ -9,14 +9,14 @@
   
   } from 'react-icons/fa';
 import Carousel from './Carousel';
+import Video from './Video';
 
 const Home = () => {
   return (
     <>
-   
     <div className="hero min-h-screen bg-base-200 p-2 md:p-20">
-    
     <div className="hero-content"> 
+    
         <div className="min-w-screen">
              <p className='text-3xl font-bold text-primary  '>Hi, my name is </p>
             <h1 className=" text-4xl  md:text-6xl overflow-hidden whitespace-nowrap font-bold w-full text-content">Alcarzin Cardona</h1>
